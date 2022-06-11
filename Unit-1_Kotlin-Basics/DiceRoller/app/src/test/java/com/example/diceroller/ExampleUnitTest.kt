@@ -14,4 +14,14 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    /*The assertTrue() method takes two parameters: a String and a Boolean.
+    If the assertion fails, the string is a message that displays in the console.
+    The boolean is a conditional statement.*/
+    fun generates_number() {
+        val dice = Dice(6)
+        val rollResult = dice.roll()
+        assertTrue("The value of rollResult was not between 1 and 6",rollResult in 1..6)
+    }
 }

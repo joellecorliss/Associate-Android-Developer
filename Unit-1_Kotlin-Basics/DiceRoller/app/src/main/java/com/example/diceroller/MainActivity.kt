@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,8 +15,11 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.button)
         val flipCoin: Button = findViewById(R.id.flipCoin)
 
+        val toast = Toast.makeText(this, "Dice rolled!", Toast.LENGTH_SHORT)
+
         rollButton.setOnClickListener {
             rollDice()
+            toast.show()
         }
 
         flipCoin.setOnClickListener {
@@ -73,6 +77,7 @@ class MainActivity : AppCompatActivity() {
         //Update content description - for accessibility
         diceImageOne.contentDescription = diceRollOne.toString()
         diceImageTwo.contentDescription = diceRollTwo.toString()
+
     }
 
     private fun flipCoin() {
