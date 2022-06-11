@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="flip">Flip coin</string>
+    <string name="side">What side?</string>
+    <string name="number_of_dices">You have 2 dices!</string>
+</resources>
