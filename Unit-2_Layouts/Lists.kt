@@ -38,12 +38,19 @@ class Vegetables(vararg val toppings: String) : Item("Vegetables", 5) {
 }
 
 fun main() {
+    val ordersList = mutableListOf<Order>()
     val orderOne = Order(1)
     val veggies = Vegetables("Sprouts", "Carrots", "Onions")
     val items = listOf(Noodles(), veggies)
     orderOne.addAll(items)
-    orderOne.printOrder()
-    var orderTwo = Order(2)
+    //orderOne.printOrder()
+    val orderTwo = Order(2)
     orderTwo.addItem(veggies)
-    orderTwo.printOrder()
+    //orderTwo.printOrder()
+    ordersList.addAll(listOf(orderOne, orderTwo))
+
+    for (order in ordersList) {
+        order.printOrder()
+    }
+
 }
