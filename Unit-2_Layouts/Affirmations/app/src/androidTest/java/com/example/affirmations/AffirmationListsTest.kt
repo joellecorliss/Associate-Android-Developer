@@ -20,12 +20,7 @@ class AffirmationListsTest {
     fun scroll_to_item() {
         //onView(withId(R.id.recycler_view)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(9)))
 
-        onView(withId(R.id.affirmationRecyclerView)).perform(
-            RecyclerViewActions
-                .scrollTo<RecyclerView.ViewHolder>(
-                    withText(R.string.affirmation10)
-                )
-        )
+        onView(withId(R.id.affirmationRecyclerView)).perform(RecyclerViewActions.scrollTo<RecyclerView.ViewHolder>(withText(R.string.affirmation10)))
 
         onView(withText(R.string.affirmation10))
             .check(matches(isDisplayed()))
