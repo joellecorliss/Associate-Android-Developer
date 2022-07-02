@@ -42,17 +42,17 @@ class DetailActivity : AppCompatActivity() {
         // intent.extras.getString returns String? (String or null)
         // so toString() guarantees that the value will be a String
         //val letterId = "A"
-        val letterId = intent?.extras?.getString(LETTER).toString()
-
-        val recyclerView = binding.recyclerView
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = WordAdapter(letterId, this)
-
-        // Adds a [DividerItemDecoration] between items
-        recyclerView.addItemDecoration(
-            DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
-        )
-
-        title = getString(R.string.detail_prefix) + " " + letterId
+//        val letterId = intent?.extras?.getString(LETTER).toString()
+//
+//        val recyclerView = binding.recyclerView
+//        recyclerView.layoutManager = LinearLayoutManager(this)
+//        recyclerView.adapter = WordAdapter(letterId, this)
+//
+//        // Adds a [DividerItemDecoration] between items
+//        recyclerView.addItemDecoration(
+//            DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+//        )
+//
+//        title = getString(R.string.detail_prefix) + " " + letterId
     }
 }

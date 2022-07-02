@@ -17,6 +17,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -58,4 +59,11 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "com.google.android.material:material:$material_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.4.0'
+    androidTestImplementation 'androidx.navigation:navigation-testing:2.4.2'
+
+    debugImplementation 'androidx.fragment:fragment-testing:1.4.1'
 }
