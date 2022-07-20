@@ -1,0 +1,536 @@
+# 2022-07-20T11:38:07.952Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 10
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "radio_buttons_update_side_menu_subtotal"
+    start_time {
+      seconds: 1658317062
+      nanos: 821000000
+    }
+    end_time {
+      seconds: 1658317064
+      nanos: 797000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-radio_buttons_update_side_menu_subtotal.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "order_reset_after_cancel_from_accompaniment_menu"
+    start_time {
+      seconds: 1658317064
+      nanos: 938000000
+    }
+    end_time {
+      seconds: 1658317068
+      nanos: 123000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-order_reset_after_cancel_from_accompaniment_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "subtotal_updates_in_full_order_flow"
+    start_time {
+      seconds: 1658317068
+      nanos: 300000000
+    }
+    end_time {
+      seconds: 1658317070
+      nanos: 947000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-subtotal_updates_in_full_order_flow.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "order_snackbar"
+    start_time {
+      seconds: 1658317071
+      nanos: 77000000
+    }
+    end_time {
+      seconds: 1658317074
+      nanos: 37000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-order_snackbar.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "order_reset_after_cancel_from_entree_menu"
+    start_time {
+      seconds: 1658317074
+      nanos: 214000000
+    }
+    end_time {
+      seconds: 1658317075
+      nanos: 741000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-order_reset_after_cancel_from_entree_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "subtotal_tax_total_in_checkout"
+    start_time {
+      seconds: 1658317075
+      nanos: 843000000
+    }
+    end_time {
+      seconds: 1658317078
+      nanos: 493000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-subtotal_tax_total_in_checkout.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "radio_buttons_update_accompaniment_menu_subtotal"
+    start_time {
+      seconds: 1658317078
+      nanos: 672000000
+    }
+    end_time {
+      seconds: 1658317079
+      nanos: 998000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-radio_buttons_update_accompaniment_menu_subtotal.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "order_reset_after_cancel_from_side_menu"
+    start_time {
+      seconds: 1658317080
+      nanos: 127000000
+    }
+    end_time {
+      seconds: 1658317082
+      nanos: 349000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-order_reset_after_cancel_from_side_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "radio_buttons_update_entree_menu_subtotal"
+    start_time {
+      seconds: 1658317082
+      nanos: 526000000
+    }
+    end_time {
+      seconds: 1658317084
+      nanos: 155000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-radio_buttons_update_entree_menu_subtotal.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "order_reset_after_cancel_from_checkout"
+    start_time {
+      seconds: 1658317084
+      nanos: 284000000
+    }
+    end_time {
+      seconds: 1658317087
+      nanos: 539000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-order_reset_after_cancel_from_checkout.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\jo-ch\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_Tiramisu(AVD) - 12\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

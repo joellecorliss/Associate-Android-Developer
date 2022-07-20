@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.lunchtray.OrderFunctionalityTests" tests="10" failures="0" errors="0" skipped="0" time="25.082" timestamp="2022-07-20T11:38:07" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_4_API_Tiramisu(AVD) - 12" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="radio_buttons_update_side_menu_subtotal" classname="com.example.lunchtray.OrderFunctionalityTests" time="1.951" />
+  <testcase name="order_reset_after_cancel_from_accompaniment_menu" classname="com.example.lunchtray.OrderFunctionalityTests" time="3.184" />
+  <testcase name="subtotal_updates_in_full_order_flow" classname="com.example.lunchtray.OrderFunctionalityTests" time="2.646" />
+  <testcase name="order_snackbar" classname="com.example.lunchtray.OrderFunctionalityTests" time="2.96" />
+  <testcase name="order_reset_after_cancel_from_entree_menu" classname="com.example.lunchtray.OrderFunctionalityTests" time="1.525" />
+  <testcase name="subtotal_tax_total_in_checkout" classname="com.example.lunchtray.OrderFunctionalityTests" time="2.648" />
+  <testcase name="radio_buttons_update_accompaniment_menu_subtotal" classname="com.example.lunchtray.OrderFunctionalityTests" time="1.326" />
+  <testcase name="order_reset_after_cancel_from_side_menu" classname="com.example.lunchtray.OrderFunctionalityTests" time="2.22" />
+  <testcase name="radio_buttons_update_entree_menu_subtotal" classname="com.example.lunchtray.OrderFunctionalityTests" time="1.629" />
+  <testcase name="order_reset_after_cancel_from_checkout" classname="com.example.lunchtray.OrderFunctionalityTests" time="3.256" />
+</testsuite>
