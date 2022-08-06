@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.android.devbyteviewer.app-mergeDebugResources-37:/layout/devbyte_item.xml",
+        "source": "com.example.android.devbyteviewer.app-main-40:/layout/devbyte_item.xml"
+    },
+    {
+        "merged": "com.example.android.devbyteviewer.app-mergeDebugResources-37:/layout/fragment_dev_byte.xml",
+        "source": "com.example.android.devbyteviewer.app-main-40:/layout/fragment_dev_byte.xml"
+    }
+]
