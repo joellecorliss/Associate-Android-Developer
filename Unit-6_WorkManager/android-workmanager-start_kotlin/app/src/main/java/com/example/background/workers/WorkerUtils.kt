@@ -121,7 +121,7 @@ fun blurBitmap(bitmap: Bitmap, applicationContext: Context): Bitmap {
         val outAlloc = Allocation.createTyped(rsContext, inAlloc.type)
         val theIntrinsic = ScriptIntrinsicBlur.create(rsContext, Element.U8_4(rsContext))
         theIntrinsic.apply {
-            setRadius(10f)
+            setRadius(25f)
             theIntrinsic.setInput(inAlloc)
             theIntrinsic.forEach(outAlloc)
         }
